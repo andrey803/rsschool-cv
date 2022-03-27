@@ -10,7 +10,7 @@
 
 ## _About me_
 
-I'm working as an electrical engineer. I want to be a part of creative intelligent and friendly team. I like to write code and improve it. I'm just having fun. I am currently in the early stages of learning.
+I work as an electrical engineer. I'm learning HTML5/CSS3. I like to write code and improve it. I want to be part of a creative intelligent and friendly team. I am currently in the early stages of my education.
 
 ## _Hard Skills_
 
@@ -66,3 +66,5 @@ Without experience
 
 - Russian
 - English - A2
+
+![RS School](https://rollingscopes.com/images/logo_rs_text.svg)
