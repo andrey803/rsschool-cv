@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      href="https://raw.githubusercontent.com/andrey803/rsschool-cv/rsschool-cv-html/img/assets/img-icon.ico"
+    />
+    <link rel="stylesheet" href="style3.css" />
+    <title>Curriculum Vitae</title>
+  </head>
+  <body class="sv">
+    <header>
+      <div class="container">
+        <h1 class="position1">
+          <span class="position2"> Andrey Zenkov </span>
+          <br />
+          Junior Frontend Developer
+        </h1>
+        <nav class="nav">
+          <ul class="menu">
+            <li>
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li>
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li>
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li>
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li>
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li>
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="contacts">
+        <p class="text_contact1" id="contacts">My contacts:</p>
+        <span class="text_contact2">
+          <img
+            src="https://github.com/andrey803/rsschool-cv/blob/rsschool-cv-html/img/assets/telephone.png?raw=true"
+            alt="telephone"
+            width="20"
+            height="20"
+          />
+          Phone: +375 (29) 176-47-27 <br />
+          <img
+            src="https://github.com/andrey803/rsschool-cv/blob/rsschool-cv-html/img/assets/github.png?raw=true"
+            alt="Git"
+            width="20"
+            height="20"
+          />
+          GitHub:
+          <a href="https://github.com/andrey803/">
+            https://github.com/andrey803\
+          </a>
+          <br />
+          <img
+            src="https://github.com/andrey803/rsschool-cv/blob/rsschool-cv-html/img/assets/gmail.jpg?raw=true"
+            alt="Gmail"
+            width="20"
+            height="20"
+          />
+          Gmail: englishman176@gmail.com
+        </span>
+      </div>
+
+      <section class="section1">
+        <h2 class="about_me" id="summary">About me</h2>
+        <p class="about_me">
+          I work as an electrical engineer. Received a technical higher
+          education. Now I am deeply studying HTML5/CSS3, Javascript. I like to
+          write code, improve it, see the result of my work. At the time of
+          writing the code, time stops, you plunge into the world of limitless
+          possibilities. I am currently in the early stages of my education.
+          With each step you get closer and closer to your goal. I want to be
+          part of a creative intelligent and friendly team.
+        </p>
+      </section>
+      <section class="section2" id="code">
+        <h2 class="code_example">Code Example</h2>
+        <pre class="text_code">
+      <code >
+        meta charset="utf-8"
+        script
+        var summ = +prompt("Enter deposit amount: ");
+        var percent = +prompt("Enter the percentage to calculate: ");
+        percent = percent / 100;
+        var result = "Change in the size of the contribution by years:\n";<br />
+        for (var i = 1; i &lt;=10; i++) {
+        summ = summ + summ * percent;
+        result += i + "year=" + summ.toFixed(2) + "rub;\n";
+        }
+        alert(result);
+        script
+      </code>
+	 </pre>
+      </section>
+      <section>
+        <h2 class="education" id="education">Education</h2>
+        <p class="education">
+          I graduated from BSTU. Specialty energy engineer. Language -А2
+        </p>
+      </section>
+    </main>
+    <aside>
+      <div class="position_photo">
+        <figure>
+          <img
+            class="picture"
+            src="https://github.com/andrey803/rsschool-cv/blob/rsschool-cv-html/img/assets/photo_2022-03-02_22-27-33.png?raw=true"
+            alt="my photo"
+          />
+        </figure>
+      </div>
+      <section id="skills">
+        <div class="section3">
+          <h2 class="hard_Skills">Hard Skills</h2>
+          <ul class="hard_Skills">
+            <li>Git and GiTHub</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>base javascript</li>
+          </ul>
+        </div>
+        <div class="section4">
+          <h2 class="soft_Skills">Soft Skills</h2>
+          <ul class="soft_Skills">
+            <li>communicable</li>
+            <li>responsible</li>
+            <li>stress resistant</li>
+            <li>tactful</li>
+          </ul>
+        </div>
+      </section>
+    </aside>
+
+    <footer>
+      <div class="container">
+        <p class="link">
+          Github was created in 2008. Link to github of my work:
+          <a
+            href="https://github.com/andrey803/rsschool-cv/tree/rsschool-cv-html"
+          >
+            My job</a
+          >
+          <br />
+          <a href="https://rs.school/js/"
+            ><img
+              src="https://rollingscopes.com/images/logo_rs_text.svg"
+              alt="Course logo"
+          /></a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
