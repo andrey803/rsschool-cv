@@ -1,1 +1,1 @@
-https://andrey803.github.io/rsschool-cv/index3.html
+https://andrey803.github.io/rsschool-cv/
